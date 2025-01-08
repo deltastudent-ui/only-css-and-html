@@ -1,0 +1,244 @@
+body{
+    background-color: beige;
+}
+
+
+
+
+.nav-bar{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    flex: 1;
+    border-radius: 0 0 1rem 1rem;
+    border-bottom: 5px solid black;
+}
+.uper_nav{
+    width: 100%;
+    height: 2rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    cursor: pointer;   
+    flex: 1; 
+
+}
+
+.uper{
+    display: flex;
+    align-items: center;
+
+}
+.smal_icon{
+    display: flex;
+    margin-left: 2rem;
+
+
+
+
+}
+
+.logs{
+    display: flex ;
+    margin-left: 5rem;
+    cursor: pointer;
+
+
+}
+
+
+
+.log{
+    display: flex;
+align-items: center;
+margin-left:2rem;
+
+}
+.log:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.logss{
+    margin-left: 25rem;
+}
+.logss:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+#icon_search{
+    margin-right:2rem;
+}
+.smal_icon:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.lower-nav{
+    height: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:3rem;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.hub{
+    margin-left:3rem;
+}
+.butn{
+    margin-left: 30rem;
+}
+
+.butn button{
+    background-color: green;
+    border-radius: 0.5rem;
+    padding: 0.9rem 2rem;
+}
+
+.butn button:hover{
+    background-color: red;
+}
+.hub:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.frist_Content{
+    height: 42rem;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    color: blue;
+    margin-left: 2rem;
+    flex-wrap: wrap;
+}
+.frist_img .btn-one{
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    background-color: green;
+
+}
+.frist_img{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.img_one{
+    height: 300px;
+    width: 600px;
+}
+.writing{
+    margin-left: 2rem;
+}
+.btn-two{
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    background-color:coral;
+}
+.btn-two:hover{
+    opacity: 0.5;
+}
+
+.img_two{
+    height: 300px;
+    width: 400px;
+    margin: o.5rem;
+    margin-left: 6rem;
+    padding: ;
+
+}
+.points{
+    margin-top:3rem;
+    font-size: 1.2rem;
+}
+.second_card{
+    display: flex;
+    background-color: aqua;
+    height: 35rem;
+}
+.writing_two{
+    margin:7rem 1rem 0 4em;
+}
+.big-line{
+    font-size: 2.37rem;
+}
+
+
+.frist-line{
+    font-size: 1.2rem;
+}
+.secend-line{
+    font-size: 1.2rem;
+}
+.pictone{
+    margin:8rem 1rem 0 2rem;
+    height: 300px;
+    width: 500px;
+   
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.heding{
+    display: flex;
+    background-color: aqua;
+}
+
+.aju{
+    margin-left: 6rem;
+    color: red;
+}
+
+.last{
+    display: flex;
+    margin-top: 2rem;
+}
+#pics {
+    margin: 0 4rem 1rem 7rem;
+    height: 300px;
+    width: 500px;
+}
+#pics:hover{
+    cursor: pointer;
+}
+
+.head_one{
+    color: black;
+    opacity: 0.8;
+    margin-bottom: 1.5rem 0 1.3rem 0;
+}
+
+.head_p{
+    color: black;
+    opacity: 0.7;
+    font-size: 1.2rem;
+}
+
